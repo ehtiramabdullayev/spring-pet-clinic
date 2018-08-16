@@ -8,5 +8,6 @@ public class SpringPetClinicApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringPetClinicApplication.class, args);
+
 	}
 }
