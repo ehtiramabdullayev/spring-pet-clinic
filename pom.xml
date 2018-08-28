@@ -4,7 +4,7 @@
 
 	<groupId>com.springframework</groupId>
 	<artifactId>spring-pet-clinic</artifactId>
-	<version>yes</version>
+	<version></version>
     <modules>
         <module>pet-clinic-data</module>
 		<module>pet-clinic-web</module>
@@ -55,7 +55,8 @@
 	</build>
 
 	<scm>
-		<developerConnection>scm:git:git://github.com/ehtiramabdullayev/spring-pet-clinic.git</developerConnection>
-	</scm>
+		<developerConnection>scm:git:https://github.com/ehtiramabdullayev/spring-pet-clinic.git</developerConnection>
+	  <tag>HEAD</tag>
+  </scm>
 
 </project>
