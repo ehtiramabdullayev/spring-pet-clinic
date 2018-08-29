@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14038ac7-3251-4e73-8d93-4f54352061ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/com/springframework/springpetclinic/services/map/AbstractMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/com/springframework/springpetclinic/services/map/OwnerServiceMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/com/springframework/springpetclinic/services/map/PetServiceMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-data/src/main/java/com/springframework/springpetclinic/services/map/VetServiceMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/epam.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-web/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/pet-clinic-data/target/" />
@@ -33,20 +32,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="30" />
+          <entry key="java" value="31" />
           <entry key="md" value="2" />
           <entry key="mvnw" value="1" />
-          <entry key="properties" value="6" />
+          <entry key="properties" value="7" />
           <entry key="releaseBackup" value="6" />
+          <entry key="txt" value="1" />
           <entry key="xml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="30" />
+          <entry key="JAVA" value="31" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Properties" value="6" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Properties" value="7" />
           <entry key="XML" value="17" />
         </counts>
       </usages-collector>
@@ -54,17 +54,17 @@
         <counts>
           <entry key="java" value="859" />
           <entry key="md" value="17" />
-          <entry key="properties" value="18" />
+          <entry key="properties" value="67" />
           <entry key="releaseBackup" value="5" />
-          <entry key="txt" value="221" />
+          <entry key="txt" value="246" />
           <entry key="xml" value="280" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="859" />
-          <entry key="PLAIN_TEXT" value="243" />
-          <entry key="Properties" value="18" />
+          <entry key="PLAIN_TEXT" value="268" />
+          <entry key="Properties" value="67" />
           <entry key="XML" value="280" />
         </counts>
       </usages-collector>
@@ -76,10 +76,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/java/SpringPetClinicApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -88,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/com/springframework/springpetclinic/services/OwnerService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="53" lean-forward="true" selection-start-column="53" selection-end-column="53" />
+              <caret column="53" selection-start-column="53" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -113,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/com/springframework/springpetclinic/services/map/PetServiceMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#326#327#0" expanded="true" />
@@ -136,10 +148,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/resources/banner.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/com/springframework/springpetclinic/services/map/VetServiceMap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#402#403#0" expanded="true" />
@@ -161,7 +191,7 @@
         <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/com/springframework/springpetclinic/services/map/OwnerServiceMap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="451">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+              <caret line="32" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#352#353#0" expanded="true" />
@@ -183,7 +213,7 @@
         <entry file="file://$PROJECT_DIR$/pet-clinic-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -235,6 +265,8 @@
         <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/com/springframework/springpetclinic/services/map/OwnerServiceMap.java" />
         <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/com/springframework/springpetclinic/services/map/PetServiceMap.java" />
         <option value="$PROJECT_DIR$/pet-clinic-data/src/main/java/com/springframework/springpetclinic/services/map/VetServiceMap.java" />
+        <option value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/pet-clinic-web/src/main/resources/banner.txt" />
       </list>
     </option>
   </component>
@@ -342,6 +374,35 @@
               <item name="spring-pet-clinic" type="462c0819:PsiDirectoryNode" />
               <item name="pet-clinic-web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-pet-clinic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-pet-clinic" type="462c0819:PsiDirectoryNode" />
+              <item name="pet-clinic-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-pet-clinic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-pet-clinic" type="462c0819:PsiDirectoryNode" />
+              <item name="pet-clinic-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-pet-clinic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-pet-clinic" type="462c0819:PsiDirectoryNode" />
+              <item name="pet-clinic-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-pet-clinic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-pet-clinic" type="462c0819:PsiDirectoryNode" />
+              <item name="pet-clinic-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -351,7 +412,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535548504516" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535550793508" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../jokeapp" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -360,10 +421,10 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ehtiram_Abdullayev\IdeaProjects\spring-pet-clinic\pet-clinic-web\src\main\resources" />
       <recent name="C:\Users\Ehtiram_Abdullayev\IdeaProjects\spring-pet-clinic\pet-clinic-web\src\test\java" />
       <recent name="C:\Users\Ehtiram_Abdullayev\IdeaProjects\spring-pet-clinic\src\main\java" />
       <recent name="C:\Users\Ehtiram_Abdullayev\IdeaProjects\spring-pet-clinic\pet-clinic-web\src\test" />
-      <recent name="C:\Users\Ehtiram_Abdullayev\IdeaProjects\spring-pet-clinic\pet-clinic-web\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -478,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535544729230</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Impl Map Based Services, Closes #6">
+      <created>1535548553872</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1535548553872</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -561,7 +629,8 @@
     <MESSAGE value="Implementing Interfaces for Services. Closes #5" />
     <MESSAGE value="adding base entity Closes #10" />
     <MESSAGE value="refactoring to common crud interface Closes #11" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring to common crud interface Closes #11" />
+    <MESSAGE value="Impl Map Based Services, Closes #6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Impl Map Based Services, Closes #6" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -569,13 +638,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -600,16 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="116" column="4" selection-start-line="116" selection-start-column="4" selection-end-line="116" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/java/SpringPetClinicApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,21 +790,14 @@
     <entry file="file://$PROJECT_DIR$/pet-clinic-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/com/springframework/springpetclinic/services/map/OwnerServiceMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+          <caret line="32" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#352#353#0" expanded="true" />
@@ -793,7 +838,7 @@
     <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/com/springframework/springpetclinic/services/OwnerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="53" lean-forward="true" selection-start-column="53" selection-end-column="53" />
+          <caret column="53" selection-start-column="53" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -818,7 +863,7 @@
     <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/com/springframework/springpetclinic/services/map/VetServiceMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#402#403#0" expanded="true" />
@@ -837,8 +882,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pet-clinic-data/src/main/java/com/springframework/springpetclinic/services/map/PetServiceMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#326#327#0" expanded="true" />
@@ -852,6 +897,37 @@
             <element signature="e#709#710#0" expanded="true" />
             <element signature="e#745#746#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/java/SpringPetClinicApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pet-clinic-web/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
