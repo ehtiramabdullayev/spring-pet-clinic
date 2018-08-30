@@ -22,7 +22,7 @@ public class VetController {
     @RequestMapping({"vets/","vets/index","vets/index.html"})
     public String listVets(Model model){
         vetService.findAll().forEach(vet -> System.out.println());
-        model.addAttribute("vets",vetService.findAll().stream().findFirst().get());
+        model.addAttribute("vets",vetService.findAll());
 
         return "vets/index";
     }
